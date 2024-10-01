@@ -4,11 +4,12 @@ import Home from "./component/home";
 import Nowplay from "./component/now-playing";
 import Search from "./component/search";
 import Upcoming from "./component/upcoming";
+import './style/home.css'
+
 function App() {
   return (
     <div>
       <header>
-        <h1>Movie Catalogue</h1>
         <Navigation/>
       </header>
       <main>
